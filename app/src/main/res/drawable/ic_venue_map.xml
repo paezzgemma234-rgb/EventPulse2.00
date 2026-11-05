@@ -1,0 +1,72 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="130dp"
+    android:viewportWidth="400"
+    android:viewportHeight="260">
+
+    <!-- Background Grid Base -->
+    <path
+        android:fillColor="#12182A"
+        android:pathData="M0,0h400v260h-400z" />
+
+    <!-- Grid lines -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="0.5"
+        android:strokeAlpha="0.2"
+        android:pathData="M0,40h400 M0,80h400 M0,120h400 M0,160h400 M0,200h400 M0,240h400 M40,0v260 M80,0v260 M120,0v260 M160,0v260 M200,0v260 M240,0v260 M280,0v260 M320,0v260 M360,0v260" />
+
+    <!-- Cyber Stage Principal (Magenta) -->
+    <path
+        android:fillColor="#33FF2E93"
+        android:strokeColor="#FF2E93"
+        android:strokeWidth="2"
+        android:pathData="M30,30h110v70h-110z" />
+
+    <!-- Dome 360 (Cyan Circle) -->
+    <path
+        android:fillColor="#3322D3EE"
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="2"
+        android:pathData="M270,75m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+
+    <!-- Darkroom Lab & VR Cube (Violet) -->
+    <path
+        android:fillColor="#338B5CF6"
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2"
+        android:pathData="M170,30h70v50h-70z" />
+
+    <!-- Jardín Biotec & Exposiciones (Orange) -->
+    <path
+        android:fillColor="#33FF8A3D"
+        android:strokeColor="#FF8A3D"
+        android:strokeWidth="2"
+        android:pathData="M30,130h120v60h-120z" />
+
+    <!-- Chillout Lounge (Lime) -->
+    <path
+        android:fillColor="#33C6F64A"
+        android:strokeColor="#C6F64A"
+        android:strokeWidth="2"
+        android:pathData="M180,120h90v50h-90z" />
+
+    <!-- Accesos y Salidas (Lime Arrows) -->
+    <path
+        android:fillColor="#C6F64A"
+        android:pathData="M320,200l20,-10v20z M350,200l20,-10v20z" />
+
+    <!-- Sanitarios (White) -->
+    <path
+        android:fillColor="#33F5F5FA"
+        android:strokeColor="#F5F5FA"
+        android:strokeWidth="1.5"
+        android:pathData="M300,130h50v40h-50z" />
+
+    <!-- Connecting Pathways (Glowing Cyan Lines) -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="2"
+        android:pathData="M85,100v30 M140,65h30 M240,55h30 M225,120v-40 M150,160h30 M270,145h30 M310,75v55 M320,170v30" />
+
+</vector>
